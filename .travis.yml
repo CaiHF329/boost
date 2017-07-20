@@ -1,2 +1,9 @@
+sudo: required
+dist: trusty
+
 language: cpp
-sudo apt-get update
+
+compiler: gcc
+
+before_sript:
+    sudo apt-get update
