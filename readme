@@ -1,2 +1,12 @@
-# boost
-this project just to test boost 
+date_time中使用枚举special_values定义了一些特殊的时间概念，包括:
+pos_infin(正无限)
+neg_infin(负无限)
+not_a_date_time(无效时间)
+min_date_time(最小日期或时间)
+max_date_time（最大日期或者时间）
+另外还提供了5个is_xxx函数，用于检验日期是否是特殊日期,
+is_infinity(是否是一个无限日期)
+is_neg_infinity(是否是一个负无限日期)
+is_pos_infinity(是否是一个正无限日期)
+is_not_adate(是否是一个无效日期)
+is_special(是否是任意一个特殊日期)
